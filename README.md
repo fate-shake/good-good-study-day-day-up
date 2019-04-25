@@ -81,7 +81,7 @@
 #### 语言类
 [typeScript]
 
-[MVVM、MVC]()
+[MVVM、MVC](./language/mvc-mvvm.md)
 
 [必须学习一门后端语言]
 
