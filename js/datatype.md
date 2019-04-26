@@ -66,5 +66,27 @@ Object.prototype.toString 返回的格式是：[object 类型]
 
  对于基础数据类型和引用类型，Object.prototype.toString都能准确的返回数据类型，因此最常用与判断数据类型；
 
+##### instanceof
+必须明确的制定判断类型,同时可以根据原型链来判断实例是否属于继承；
+
+instanceof 实现基于原型继承
+```js
+function instance_of(L, R) {//L 表示左表达式，R 表示右表达式
+ var O = R.prototype;// 取 R 的显示原型
+ L = L.__proto__;// 取 L 的隐式原型
+ while (true) { 
+   if (L === null) 
+     return false; 
+   if (O === L)// 这里重点：当 O 严格等于 L 时，返回 true 
+     return true; 
+   L = L.__proto__; 
+ } 
+}
+```
+[] instanceof Array ---> true
+[] instanceof Object ---> true
+
+##### constructor
+待补充
 
 > 2019/4/25 第一天
