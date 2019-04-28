@@ -25,3 +25,19 @@ setPrototypeOf: 设置指定对象的原型到另一个对象或者null
 hasOwnProperty(): 返回自身属性是否包含指定属性(该方法会忽略从原型上继承的属性)
 
 defineProperty(): 在对象上直接定义或修改一个属性
+
+#### new操作符
+new操作符到底做了什么呢？
+
+例如：new A()
+
+1、创建一个空对象：let obj = {}
+
+2、将obj的隐式原型(\__proto__)指向构造函数A的显式原型(prototype): obj.\__proto__ = A.prototype
+
+3、将obj的this指向构造函数A：A.apply(obj)
+
+4、将obj返回：return obj
+
+
+> 2019/4/28
