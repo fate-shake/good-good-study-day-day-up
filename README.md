@@ -9,15 +9,15 @@
    
 [类与继承](./js/class.md)
 
-[this]
+[this](./js/this.md)
 
-[闭包]
+[闭包](./js/closure.md)
 
-[作用域、作用域链]
+[作用域、作用域链](./js/scope.md)
 
 [模块]
 
-[同步与异步]
+[异步](./js/async.md)
 
 [事件模型]
 
