@@ -15,11 +15,9 @@
 
 [作用域、作用域链](./js/scope.md)
 
+[异步、event-loop](./js/async.md)
+
 [模块]
-
-[异步](./js/async.md)
-
-[事件模型]
 
 [函数式编程]
 
