@@ -17,35 +17,31 @@
 
 [异步、event-loop](./js/async.md)
 
-[模块]
-
 [函数式编程]
 
 [设计模式]
 
-[工程化、模块化、组件化]
+[算法](./js/algorithms.md)
+
+[工程化、模块化、组件化](./js/global.md)
 
 #### HTML基础
-[HTML语义化]
+[HTML语义化](./html/semantic.md)
 
-[标签类型]
-
-[h5新增标签]
+[标签类型](./html/tag.md)
 
 #### CSS基础
-[css选择器]
+[css选择器](./css/selector.md)
 
-[css属性继承]
+[css属性继承](./css/inherit.md)
 
-[css3新增]
-
-[css3动画]
+[css3新增](./css/add.md)
 
 [flex布局]
 
 [grid布局]
 
-[局中布局的N种方式]
+[局中布局的N种方式](./css/center-layout.md)
 
 [css“奇技淫巧”]
 
