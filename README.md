@@ -46,7 +46,10 @@
 [css“奇技淫巧”]
 
 #### 框架类
-[vue]
+##### vue
+[css scope 的实现](./frame/vue/scope.md)
+
+[data为什么必须是一个函数](./frame/vue/data为什么是一个函数.md)
 
 [react]
 
