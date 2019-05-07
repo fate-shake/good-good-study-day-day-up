@@ -68,14 +68,14 @@
 
 [性能优化](./browser/preformance.md)
 
-[web安全]
+[web安全](./browser/safety.md)
 
 [调试技巧]
 
 #### 计算机通用类
-[HTTP、HTTPS]
+[HTTP、HTTPS](./common/http.md)
 
-[Nginx]
+[Nginx](./common/nginx.md)
 
 #### 语言类
 [typeScript]
